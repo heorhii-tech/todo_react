@@ -1,0 +1,36 @@
+.container{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.form_wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 40%;
+
+
+    margin: 30px auto;
+
+}
+.form_wrapper input {
+    height: 40px;
+    font-size: 18px;
+    border-radius: 10px;
+}
+.form_wrapper input:hover{
+border: 3px solid black;
+
+}
+.form_wrapper button{
+    width: 56px;
+    align-self: center;
+    padding: 6px;
+    border-radius: 10px;
+}
+.form_wrapper button:hover{
+    background-color: #022A8F;
+    color: white;
+
+
+}
